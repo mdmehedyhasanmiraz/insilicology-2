@@ -1,0 +1,26 @@
+User-agent: *
+
+# Block internal and sensitive areas
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /api/
+Disallow: /studio/
+
+# Block authentication and account flows
+Disallow: /auth/
+Disallow: /login
+Disallow: /signup
+Disallow: /update-password
+
+# Block transactional and verification pages
+Disallow: /courses/*/enroll*
+Disallow: /workshops/*/enroll*
+Disallow: /success
+Disallow: /cancel
+Disallow: /verify/
+
+# Prevent indexing of URLs with querystrings or hash fragments
+Disallow: /*?*
+Disallow: /*#*
+
+Sitemap: https://skilltori.com/sitemap.xml

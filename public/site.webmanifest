@@ -1,0 +1,23 @@
+{
+  "name": "Skilltori - Hard Skills, Easy Learning",
+  "short_name": "Skilltori",
+  "description": "Online learning platform with courses, workshops with certifications",
+  "icons": [
+    {
+      "src": "/logos/icon-skilltori.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/logos/icon-skilltori.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#7c3aed",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "start_url": "/",
+  "scope": "/",
+  "orientation": "portrait-primary"
+}
