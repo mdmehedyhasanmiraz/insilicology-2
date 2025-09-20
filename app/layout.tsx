@@ -20,62 +20,62 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Learn Top Skills with Skilltori",
-    template: "%s | Skilltori",
+    default: "Learn Top Skills with Insilicology",
+    template: "%s | Insilicology",
   },
-  description: "Learn top skills from industry experts with Skilltori. Our courses are designed to help you gain the skills you need to succeed in your career.",
+  description: "Learn top skills from industry experts with Insilicology. Our courses are designed to help you gain the skills you need to succeed in your career.",
   keywords: [
-    "skilltori",
-    "skilltori bangladesh",
-    "skilltori online",
-    "skilltori online course",
-    "skilltori online course bangladesh",
-    "skilltori online course in bangladesh",
+    "insilicology",
+    "insilicology bangladesh",
+    "insilicology online",
+    "insilicology online course",
+    "insilicology online course bangladesh",
+    "insilicology online course in bangladesh",
   ],
   authors: [
     {
-      name: "Skilltori",
-      url: "https://skilltori.com"
+      name: "Insilicology",
+      url: "https://insilicology.org"
     }
   ],
-  creator: "Skilltori",
-  publisher: "Skilltori",
+  creator: "Insilicology",
+  publisher: "Insilicology",
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://skilltori.com"),
+  metadataBase: new URL("https://insilicology.org"),
   alternates: {
-    canonical: "https://skilltori.com",
+    canonical: "https://insilicology.org",
   },
   openGraph: {
     type: "website",
     locale: "en_CA",
-    title: "Skilltori - Learn Top Skills with Skilltori",
+    title: "Insilicology - Learn Top Skills with Insilicology",
     description:
-      "Learn top skills from industry experts with Skilltori. Our courses are designed to help you gain the skills you need to succeed in your career.",
-    url: "https://skilltori.com",
-    siteName: "Skilltori",
+      "Learn top skills from industry experts with Insilicology. Our courses are designed to help you gain the skills you need to succeed in your career.",
+    url: "https://insilicology.org",
+    siteName: "Insilicology",
     images: [
       {
         url: ogImage.src,
-        alt: "Skilltori - Learn Top Skills with Skilltori",
+        alt: "Insilicology - Learn Top Skills with Insilicology",
         type: "image/webp",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Skilltori - Learn Top Skills with Skilltori",
+    title: "Insilicology - Learn Top Skills with Insilicology",
     description:
-      "Learn top skills from industry experts with Skilltori. Our courses are designed to help you gain the skills you need to succeed in your career.",
-    creator: "@skilltori",
-    site: "@skilltori",
+      "Learn top skills from industry experts with Insilicology. Our courses are designed to help you gain the skills you need to succeed in your career.",
+    creator: "@insilicology",
+    site: "@insilicology",
     images: [
       {
         url: ogImage.src,
-        alt: "Skilltori - Learn Top Skills with Skilltori",
+        alt: "Insilicology - Learn Top Skills with Insilicology",
         type: "image/webp",
       },
     ],
@@ -103,19 +103,19 @@ export const metadata: Metadata = {
     "geo.placename": "Canada",
     "geo.position": "43.6532;-79.3832",
     "ICBM": "43.6532, -79.3832",
-    "DC.title": "Skilltori - Learn Top Skills with Skilltori",
-    "DC.creator": "Skilltori",
+    "DC.title": "Insilicology - Learn Top Skills with Insilicology",
+    "DC.creator": "Insilicology",
     "DC.subject": "Education",
-    "DC.description": "Learn top skills from industry experts with Skilltori. Our courses are designed to help you gain the skills you need to succeed in your career.",
-    "DC.publisher": "Skilltori",
-    "DC.contributor": "Skilltori",
+    "DC.description": "Learn top skills from industry experts with Insilicology. Our courses are designed to help you gain the skills you need to succeed in your career.",
+    "DC.publisher": "Insilicology",
+    "DC.contributor": "Insilicology",
     "DC.date": "2024-12-01",
     "DC.type": "Text",
     "DC.format": "text/html",
-    "DC.identifier": "https://skilltori.com",
+    "DC.identifier": "https://insilicology.org",
     "DC.language": "en",
     "DC.coverage": "Canada",
-    "DC.rights": "Copyright © 2025 Skilltori. All rights reserved.",
+    "DC.rights": "Copyright © 2025 Insilicology. All rights reserved.",
   },
   icons: {
     icon: [
@@ -135,7 +135,7 @@ export const metadata: Metadata = {
     ],
   },
   manifest: "/site.webmanifest",
-  applicationName: "Skilltori",
+  applicationName: "Insilicology",
   generator: "Next.js",
   referrer: "origin-when-cross-origin",
 };
@@ -214,9 +214,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       {`{
         "@context": "https://schema.org",
         "@type": "WebSite",
-        "name": "Skilltori",
-        "alternateName": "Skilltori",
-        "url": "https://skilltori.com/"
+        "name": "Insilicology",
+        "alternateName": "Insilicology",
+        "url": "https://insilicology.org/"
       }`}
       </Script>
 

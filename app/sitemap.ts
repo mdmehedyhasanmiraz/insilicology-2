@@ -2,7 +2,7 @@ import { getPosts } from "@/sanity/lib/client";
 import type { Post } from "@/sanity/types";
 import { supabaseAdmin } from "@/lib/supabase/server";
 
-const baseUrl: string = "https://skilltori.com";
+const baseUrl: string = "https://insilicology.org";
 
 interface SitemapEntry {
   url: string;

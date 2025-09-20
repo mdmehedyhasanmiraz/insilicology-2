@@ -1,6 +1,6 @@
-# Skilltori.com
+# Insilicology
 
-Skilltori is an online learning platform offering top skills in web development, SEO, AI, and digital marketing. It provides live and recorded courses, interactive exams, certificates, and seamless payment integration (including bKash). The platform is designed to help learners and professionals upskill efficiently with industry-relevant content and tools.
+Insilicology is an online learning platform offering top skills in web development, SEO, AI, and digital marketing. It provides live and recorded courses, interactive exams, certificates, and seamless payment integration (including bKash). The platform is designed to help learners and professionals upskill efficiently with industry-relevant content and tools.
 
 ## 🚀 Features
 - Live and recorded courses
@@ -26,8 +26,8 @@ Skilltori is an online learning platform offering top skills in web development,
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/skilltori.com.git
-   cd skilltori.com
+   git clone https://github.com/________/insilicology-2.git
+   cd insilicology-2
    ```
 2. **Install dependencies:**
    ```bash

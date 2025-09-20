@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import { Metadata } from 'next';
 import { getPublishedJobs } from '@/lib/supabase/publicJobUtils';
+import { Job } from '@/types/job.type';
 import JobArchive from '@/components/career/JobArchive';
 
 export const metadata: Metadata = {
@@ -14,7 +15,7 @@ export const metadata: Metadata = {
 export const dynamic = 'force-dynamic';
 
 const CareerPage: React.FC = async () => {
-  let jobs: any[] = [];
+  let jobs: Job[] = [];
   
   try {
     jobs = await getPublishedJobs();

@@ -23,4 +23,4 @@ Disallow: /verify/
 Disallow: /*?*
 Disallow: /*#*
 
-Sitemap: https://skilltori.com/sitemap.xml
+Sitemap: https://insilicology.org/sitemap.xml

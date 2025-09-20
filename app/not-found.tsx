@@ -9,7 +9,7 @@ export default function NotFound() {
       {/* Ghost Image */}
       <div className="animate-float mb-8">
         <Image
-          src="/logos/logo-skilltori.svg"
+          src="/logos/logo-insilicology.svg"
           alt="404"
           width={180}
           height={180}
